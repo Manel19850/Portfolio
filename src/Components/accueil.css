@@ -1,0 +1,131 @@
+
+
+.container-intro
+{display: flex;
+gap: 10%;}
+
+.intro {
+  font-size: 1.5vw;
+  width: 60%;
+  font-weight: 700;
+  margin-top: 20%;
+  margin-left: 10%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: trackingAnimation 2s ease 0.5s forwards, contractionAnimation 1s ease 2.5s forwards;
+}
+
+@keyframes trackingAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    letter-spacing: 2px; /* Espacement initial des lettres */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    letter-spacing: 8px; /* Augmentez l'espacement pour l'effet de suivi */
+  }
+}
+
+@keyframes contractionAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+    letter-spacing: 8px; /* Espacement du suivi */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    letter-spacing: 2px; /* Réduisez l'espacement pour l'effet de contraction */
+  }
+}
+  .intro p
+  {line-height:2;}
+
+
+  .box-area
+  {
+    position: absolute;
+    top:-20%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+  }
+
+.box-area li
+
+{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: #900C3F;
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+
+
+.box-area li:nth-child(1)
+{ left: 86%;
+width: 80px;
+height: 80px;
+animation-delay:0s;
+}
+
+
+.box-area li:nth-child(2)
+{ left: 12%;
+width: 30px;
+height: 30px;
+animation-delay:1.5s;
+animation-duration: 10s;
+}
+
+
+.box-area li:nth-child(3)
+{ left: 40%;
+width: 100px;
+height: 100px;
+animation-delay:5.5s;
+}
+
+.box-area li:nth-child(4)
+{ left: 50%;
+width: 150px;
+height: 150px;
+animation-delay:0s;
+animation-duration: 15s;
+}
+
+.box-area li:nth-child(5)
+{ left: 65%;
+width: 40px;
+height: 40px;
+animation-delay:0s;
+}
+
+.box-area li:nth-child(6)
+{ left: 15%;
+width: 110px;
+height: 110px;
+animation-delay:0s;
+animation-duration: 3.5s;
+}
+
+@keyframes animate
+{
+    0%{
+
+        transform: translateY(0) rotate(0 deg);
+    }
+
+    100%{
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}

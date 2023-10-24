@@ -1,0 +1,49 @@
+[ 
+{
+        "id": "1",
+        "title": "Site de réservation BOOKI",
+        "cover": "Site-Booki.PNG",
+        "soustitre":"Création la page d'accueil d'une agence de voyage",
+        "description": "Développement d'un site HTML5 / CSS3 Responsive, Intégration d'une interface web simple et responsive, dans le respect d'une maquette FIGMA avec 3 versions : Mobile, Tablette et Ordinateur.",
+        "langage": "HTML et CSS",
+        "site": "https://manel19850.github.io/P2-Projet-Booki-HTM-CSS/"
+    },
+    {
+        "id": "2",
+        "title": "Portfolio de l'architecte Sophie Bluel",
+        "cover": "site-Sophie.png",
+        "soustitre":"Création d'une application dynamique avec JavaScript",
+        "description": "Développement d'une application JavaScript avec une interaction avec Node Js. Manipulation du DOM, récupération des données utilisateur de façon dynamique.",
+        "langage": "JavaScript",
+        "site":"https://github.com/Manel19850/Sophie-Bluel.git"
+
+    },
+    {
+        "id": "3",
+        "title": "Portfolio de la photographe Nina Carducci",
+        "cover": "NINA.png",
+        "soustitre":"Opimisation du site internet",
+        "description": "Recherche et corrections des bugs, optimisation du SEO/accessibilié à partir du rapport LightHouse.",
+        "langage": "GIMP",
+        "location": "Ile de France - Paris 20e",
+        "site":"https://manel19850.github.io/P5-Optimisation-site-Nina-Carducci/"
+    },
+    {
+        "id": "4",
+        "title": "Application Kasa - Site de location immobilière",
+        "cover": "site-kasa.png",
+        "soustitre": "Création d'une application de location immobilière avec REACT / Responsive",
+        "description": "Création d'une application de location immobilière avec REACT, création des composants fonctionnels ainsi que des routes afin de naviguer entre les pages. Récupéraction des données de façon dynamique.",
+        "langage": "React Js",
+        "site":"https://kasa-f23da9.netlify.app/"
+    },
+    {
+        "id": "5",
+        "title": "Site de notation Mon Vieux Grimmoire",
+        "cover": "MVG.png",
+        "soustitre":"Développement du back-end du site de notation de livres Mon vieux grimoire",
+        "description": "Développement de la totalité du Backend du site Mon vieux grimoire. Mise en oeuvre des opérations CRUD , sécurisation des données et implémentation de modèle de logique de données.",
+        "langage": "Nodejs, ExpressJs",
+        "site":"https://github.com/Manel19850/Backend_P7.git"
+    }
+]

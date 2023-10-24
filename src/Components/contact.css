@@ -1,0 +1,27 @@
+.touch
+{
+    color: #FFC436;
+    border-left: solid 20px  #FFC436;
+    border-bottom: solid 20px  #FFC436;
+    margin-top: 10%;
+   
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    margin:30px;
+
+}
+
+.footer-content a
+{display: flex;
+text-decoration: none;
+color: #FFC436;
+font-size: 30px;}
+
+.fa-github, .fa-linkedin-in
+{ 
+ margin-right: 1%;
+
+}

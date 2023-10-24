@@ -1,0 +1,79 @@
+.title {
+    text-align: center;
+    color:#FFC436;
+    margin-top: 15%;
+  }
+  
+  .title span {
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    margin-left: -28%;
+    margin-top: -3%;
+    z-index: 0;
+    opacity: 0.05;
+    opacity: 20%;
+    color:white;
+  }
+  
+.container-comp
+{display: flex;
+justify-content: center;
+gap: 7%;}
+  
+.block1,
+.block22,
+.block3 {
+  background-color: #900C3F; /* Correction de la syntaxe */
+  border: solid 1px #FFC436;
+  width: 20%;
+  margin-top: 10%;
+  color: #FFC436;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease; /* Ajout de la transition */
+}
+
+
+
+  
+  .block1:hover,
+  .block22:hover,
+  .block3:hover {
+    transform: rotate(10deg) scale(1.1); /* Applique la transformation sur le survol */
+  }
+  
+  .block1 h2,
+  .block22 h2,
+  .block3 h2 {
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .block1 p,
+  .block22 p,
+  .block3 p {
+    text-align: center;
+    text-align: justify;
+    padding: 30px;
+    line-height: 25px;
+    margin-top: -20px;
+  }
+  
+  .block1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .fa-code,
+  .fa-database,
+  .fa-bullseye {
+    margin-right: 20px;
+  }
+  
+  

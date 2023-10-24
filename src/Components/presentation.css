@@ -1,0 +1,42 @@
+.container-presentation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20%;
+}
+
+#presentation {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+  
+}
+
+.profile-image {
+  width: 500px;
+  margin-left: 5%;
+  position: relative; 
+  z-index: 2; 
+}
+
+.block {
+  background-color: #FFC436;
+  width: 500px;
+  height: 100%;
+  margin-top: -5%;
+  margin-left: -20%;
+  margin-right: 10%;
+  
+}
+
+.sous-presentation {
+  flex: 1;
+  padding: 20px; 
+  font-size: 24px;
+  width: 50%;
+  line-height: 50px;
+  text-align: justify;
+
+}
+
+
+
