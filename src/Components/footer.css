@@ -1,0 +1,16 @@
+
+.github, .linkedin {
+    display: inline-block; 
+    font-size: 70px; 
+    margin: 0 30px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .footer-container {
+    text-align: center; 
+  }
+
+  .github a , .linkedin a
+  {color:#FFC436}
+  

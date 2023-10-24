@@ -11,7 +11,7 @@ function Projet(){
         <div id="projets">
           <div className='projet'>
            <h1> PROJET</h1>
-           <div className='titre'>PORTFOLIO</div>
+           <div className='titre-projet'>PORTFOLIO</div>
            </div>
         </div>
         <div className='container-card'>

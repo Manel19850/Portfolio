@@ -1,22 +1,24 @@
 import React from 'react';
-import './index.css';
-import Accueil from './Components/accueil';
-import Presentation from './Components/presentation';
-import Projet from './Components/projets';
-import Competence from './Components/competence'
-import Contact from './Components/contact';
-import BackToTopButton from './Components/retourpage';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import Accueil from './Pages/Accueil';
+import Dashboard from './Pages/dashboard';
+import SignIn from './Pages/signin';
+import SignUp from './Pages/signup';
 
 const App = () => {
+
+
+  
   return (
     <div>
- 
-    <Accueil/>
-    <Presentation/>
-    <Projet/>
-    <Competence/>
-    <Contact/>
-    <BackToTopButton/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Accueil />} />
+          <Route path="/admin/dashboard" element={<Dashboard />} />
+          <Route path="/admin/signin" element={<SignIn />} />
+          <Route path="/admin/signup" element={<SignUp />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 };

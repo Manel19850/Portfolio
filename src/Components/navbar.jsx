@@ -19,7 +19,7 @@ function Navbar() {
           <a href="#competence">SKILLS</a><span></span>
         </li>
         <li>
-          <a href="#">CONTACT</a><span></span>
+          <a href="#contact">CONTACT</a><span></span>
         </li>
       </ul>
     </nav>

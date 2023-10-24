@@ -8,10 +8,10 @@ function Competence(){
 
         <div>
           <div id="competence">
-        <div className='projets'>
-          <h1 className="title">
+        <div className='competence'>
+          <h1 >
             MES COMPÉTENCES
-            <span>COMPETENCES</span>
+            <span className="titre-competence">COMPETENCES</span>
           </h1>
         </div>
         <div className='container-comp'>

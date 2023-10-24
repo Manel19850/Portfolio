@@ -1,8 +1,7 @@
 
-
 .container-intro
 {display: flex;
-gap: 10%;}
+  gap: 10%;}
 
 .intro {
   font-size: 1.5vw;

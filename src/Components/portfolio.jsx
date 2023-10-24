@@ -1,9 +1,9 @@
 import React from 'react';
-import './accueil.css';
+import './portfolio.css';
 import Navbar from './navbar';
 
 
-function Accueil() {
+function Portfolio() {
   return (
     <div>
 
@@ -38,4 +38,4 @@ function Accueil() {
   );
 }
 
-export default Accueil;
+export default Portfolio;
