@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './contact.css';
+import './contact.css'; // Assurez-vous que le fichier CSS est correctement référencé
+import { getFirestore, collection, addDoc } from 'firebase/firestore'; // Importez les fonctions Firebase nécessaires
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -15,33 +16,38 @@ function Contact() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => { // Ajoutez "async" ici pour utiliser "await"
     e.preventDefault();
-    // Vous pouvez ajouter ici le code pour envoyer les données du formulaire vers votre backend
-    console.log(formData);
+    try {
+      const firestore = getFirestore();
+      const messageData = {
+        ...formData,
+      };
+      await addDoc(collection(firestore, 'messages'), messageData);
+      setFormData({
+        name: '',
+        email: '',
+        message: '',
+      });
 
-    // Réinitialisez le formulaire en remettant les valeurs par défaut
-    setFormData({
-      name: '',
-      email: '',
-      message: '',
-    });
+      // Affichez le message de succès
+      setMessageSent(true);
 
-    // Affichez le message de succès
-    setMessageSent(true);
-
-    // Réinitialisez le message de succès après quelques secondes
-    setTimeout(() => {
-      setMessageSent(false);
-    }, 5000); // Réinitialisation du message après 5 secondes (vous pouvez ajuster le délai selon vos besoins)
+      // Réinitialisez le message de succès après quelques secondes
+      setTimeout(() => {
+        setMessageSent(false);
+      }, 5000); // Réinitialisation du message après 5 secondes (vous pouvez ajuster le délai selon vos besoins)
+    } catch (error) {
+      console.error('Une erreur s\'est produite :', error);
+    }
   };
 
   return (
     <div>
       <div id="contact">
         <div className='contact'>
-          <h1> CONTACT</h1>
-          <div className='titre'>CONTACTER MOI</div>
+          <h1>CONTACT</h1>
+          <div className='titre'>CONTACTEZ-MOI</div>
         </div>
       </div>
       <div className='contact-container'>

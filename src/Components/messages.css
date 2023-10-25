@@ -1,0 +1,28 @@
+/* Styles for the message container */
+.message-container h2 {
+    font-family: "Roboto", sans-serif;
+    color: #900C3F;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  /* Styles for the message table */
+  .message-table {
+    border-collapse: collapse;
+    width: 76%;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+  
+  .message-table th,
+  .message-table td {
+    border: 1px solid #900C3F;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .message-table th {
+    background-color: #900C3F;
+  }
+  

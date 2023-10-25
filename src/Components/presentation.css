@@ -12,7 +12,7 @@
 }
 
 .profile-image {
-  width: 600px;
+  width: 400px;
   margin-left: 5%;
   position: relative; 
   z-index: 2; 
@@ -20,8 +20,8 @@
 
 .block {
   background-color: #FFC436;
-  width: 600px;
-  height: 100%;
+  width: 400px;
+  height: 400px;
   margin-top: -5%;
   margin-left: -20%;
   margin-right: 10%;
@@ -31,7 +31,7 @@
 .sous-presentation {
   flex: 1;
   padding: 20px; 
-  font-size: 24px;
+  font-size: 18px;
   width: 50%;
   line-height: 50px;
   text-align: justify;
@@ -39,5 +39,81 @@
 
 }
 
+
+
+@media only screen and (max-width: 767px) {
+
+ #presentation {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .block
+  {display: none;}
+
+  .profile-image
+  {
+  margin-top: 60%;
+  width: 70%;}
+
+  .sous-presentation
+  {
+    width: 90%;
+    margin-top: 20%;
+    margin-left: 15%;
+  }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  #presentation {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .sous-presentation
+  {
+    width: 90%;
+    margin-left: 15%;
+  }
+
+  .profile-image
+  {
+    margin-top: 50%;
+  }
+
+
+  .block
+  {margin-top: -60%;
+  margin-left: 30%;}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) {
+ #presentation
+ {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .profile-image
+ {
+   margin-top: 30%;
+ }
+
+ .block
+ {margin-top: -45%;
+ margin-left: 30%;}
+
+ .sous-presentation
+ {
+   width: 90%;
+   margin-top: 10%;
+ }
+
+}
 
 

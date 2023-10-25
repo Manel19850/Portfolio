@@ -6,8 +6,8 @@
   z-index: 0;
   opacity: 20%;
   color:white;
-  margin-top: -12%;
-  margin-left: 40%
+  margin-top: -14%;
+  margin-left: 35%
 }
 
 .projet h1 {
@@ -114,4 +114,47 @@
   }
   
 
-  
+  @media only screen and (max-width: 767px) {
+
+    .titre-projet
+    {display: none;}
+
+    .card
+    {width: 100%;}
+
+    .projet h1
+    {
+    margin-bottom: 20%;}
+
+    .container-card 
+    {margin-left:6%;
+   
+    width: 100%;}
+    
+    
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .projet h1 {
+    margin-left: 20%;
+  }
+
+  .container-card 
+  {
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+
+  .card
+  {width: 100%;}
+
+.titre-projet
+{display: none;}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) {
+  .titre-projet
+{margin-left: 25%;}
+}

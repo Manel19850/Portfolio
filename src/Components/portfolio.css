@@ -128,3 +128,35 @@ animation-duration: 3.5s;
         opacity: 0;
     }
 }
+
+
+@media only screen and (max-width: 767px) {
+  .container-intro {
+    display:flex ;
+    flex-direction: column;
+    margin-top: 50%;
+    margin-left: -10%;
+   
+  }
+
+  .intro p 
+  { display: none;}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  
+
+  .intro p
+  {display:none}
+
+  .container-intro {
+    display:flex ;
+    flex-direction: column;
+    margin-top: 20%;
+   
+  }
+  }
+
+
+
