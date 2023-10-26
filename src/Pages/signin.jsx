@@ -25,20 +25,7 @@ function Signin() {
       });
   }
 
-  const resetPassword = () => {
-    const auth = getAuth();
-
-    sendPasswordResetEmail(auth, email)
-      .then(() => {
-        console.log('Email de réinitialisation du mot de passe envoyé avec succès');
-        window.alert('Un email de réinitialisation du mot de passe a été envoyé à votre adresse.');
-      })
-      .catch((error) => {
-        console.log(error);
-        window.alert('Erreur');
-      });
-  }
-
+  
   return (
     <div className='sign-container'>
       <form className='auth-block' onSubmit={signin}>
@@ -57,10 +44,7 @@ function Signin() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <a href="" className='reset-password' onClick={resetPassword}>
-          Mot de passe oublié ? Réinitialiser
-        </a>
-        <button className='sign' type='submit'>Se connecter</button>
+  
       </form>
     </div>
   );
