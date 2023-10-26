@@ -57,7 +57,7 @@ function Signin() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <a className='reset-password' onClick={resetPassword}>
+        <a href="" className='reset-password' onClick={resetPassword}>
           Mot de passe oublié ? Réinitialiser
         </a>
         <button className='sign' type='submit'>Se connecter</button>
