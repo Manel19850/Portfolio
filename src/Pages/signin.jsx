@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { getAuth, signInWithEmailAndPassword} from 'firebase/auth';
+import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
-import './sign.css'
-
+import './sign.css';
 
 function Signin() {
   const [email, setEmail] = useState('');
@@ -25,7 +24,6 @@ function Signin() {
       });
   }
 
-  
   return (
     <div className='sign-container'>
       <form className='auth-block' onSubmit={signin}>
@@ -44,7 +42,7 @@ function Signin() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-  
+        <button type="submit">Envoyer</button>
       </form>
     </div>
   );

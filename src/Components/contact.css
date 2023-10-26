@@ -1,6 +1,4 @@
 
-
-
 .titre {
     font-size: 90px;
     font-weight: 700;
@@ -69,6 +67,11 @@ justify-content: center;}
     cursor: pointer;
 
   }
+
+  .success-message
+  {margin-top: -6%;
+ margin-left: 45%;
+margin-bottom:3% ;}
   
   
   @media only screen and (max-width: 767px) {

@@ -16,7 +16,7 @@ function Contact() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = async (e) => { // Ajoutez "async" ici pour utiliser "await"
+  const handleSubmit = async (e) => { 
     e.preventDefault();
     try {
       const firestore = getFirestore();
@@ -30,13 +30,11 @@ function Contact() {
         message: '',
       });
 
-      // Affichez le message de succès
       setMessageSent(true);
 
-      // Réinitialisez le message de succès après quelques secondes
       setTimeout(() => {
         setMessageSent(false);
-      }, 5000); // Réinitialisation du message après 5 secondes (vous pouvez ajuster le délai selon vos besoins)
+      }, 2000); 
     } catch (error) {
       console.error('Une erreur s\'est produite :', error);
     }
@@ -50,8 +48,8 @@ function Contact() {
           <div className='titre'>CONTACTEZ-MOI</div>
         </div>
       </div>
+      {messageSent && <div className="success-message">Message envoyé avec succès!</div>}
       <div className='contact-container'>
-        {messageSent && <div className="success-message">Message envoyé avec succès!</div>}
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Nom:</label>
