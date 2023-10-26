@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getFirestore, collection, query, where, getDocs, doc, deleteDoc } from 'firebase/firestore';
+import { getFirestore, collection,getDocs, doc, deleteDoc } from 'firebase/firestore';
 import Messages from '../Components/messages';
 
 function Dashboard() {

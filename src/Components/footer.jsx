@@ -5,12 +5,12 @@ function Footer() {
   return (
     <div className='footer-container'> 
       <div className='github'>
-        <a href='https://github.com/Manel19850' target="_blank">
+        <a href='https://github.com/Manel19850' target="_blank" rel="noreferrer" >
           <i className="fab fa-github"></i>
         </a>
       </div>
       <div className='linkedin'>
-        <a href='https://www.linkedin.com/in/manel-jouini' target="_blank">
+        <a href='https://www.linkedin.com/in/manel-jouini' target="_blank"rel="noreferrer" >
           <i className="fab fa-linkedin"></i>
         </a>
       </div>

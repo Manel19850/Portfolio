@@ -32,6 +32,35 @@
 margin-top: 5%;
 justify-content: center;
 gap: 7%;}
+
+.text-competence p {
+  font-size: 20px;
+  text-align: center;
+  color: #900C3F;
+  font-weight: bold;
+  width: 60%;
+  margin-top: 10%;
+  margin-left: 20%;
+  line-height: 2;
+  letter-spacing: 1px;
+  position: relative;
+  animation: slideIn 6s infinite ease-in-out; /* Animation infinie avec une transition plus lente */
+}
+
+@keyframes slideIn {
+  0%, 100% {
+    left: -100%;
+    opacity: 0;
+  }
+  10%, 90% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+
+
+
   
 
   @media only screen and (max-width: 767px) {

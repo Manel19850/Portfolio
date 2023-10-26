@@ -1,46 +1,35 @@
 
 .container-intro
 {display: flex;
-  gap: 10%;}
+  gap: 5%;}
 
-.intro {
-  font-size: 1.5vw;
-  width: 60%;
-  font-weight: 700;
-  margin-top: 20%;
-  margin-left: 10%;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: trackingAnimation 2s ease 0.5s forwards, contractionAnimation 1s ease 2.5s forwards;
-}
-
-@keyframes trackingAnimation {
-  0% {
+  
+  .intro {
+    font-size: 1.5vw;
+    width: 60%;
+    font-weight: 700;
+    margin-top: 20%;
+    margin-left: 10%;
+    color:#FFC436; ;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .intro p {
     opacity: 0;
-    transform: translateY(20px);
-    letter-spacing: 2px; /* Espacement initial des lettres */
+    transform: scale(0);
+    animation: explodeText 1.5s ease-out forwards;
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-    letter-spacing: 8px; /* Augmentez l'espacement pour l'effet de suivi */
+  
+  @keyframes explodeText {
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
-}
-
-@keyframes contractionAnimation {
-  0% {
-    opacity: 1;
-    transform: translateY(0);
-    letter-spacing: 8px; /* Espacement du suivi */
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-    letter-spacing: 2px; /* Réduisez l'espacement pour l'effet de contraction */
-  }
-}
+  
   .intro p
   {line-height:2;}
 

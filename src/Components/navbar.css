@@ -37,6 +37,7 @@
 .navbar a:hover::after {
   transform: scaleX(1); 
   opacity: 1;
+  
 }
 
 li

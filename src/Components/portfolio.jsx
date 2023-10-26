@@ -13,7 +13,7 @@ function Portfolio() {
      
       <div className='container-intro'>
         <div className='intro'>
-          <p>
+          <p id="typing-text">
             <br />
             <span>Bienvenue sur mon portfolio!</span>
             <br />
