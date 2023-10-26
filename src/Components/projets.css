@@ -130,7 +130,42 @@
     {margin-left:6%;
    
     width: 100%;}
+
+
+    .content-card h2 {
+      margin: 10px 20px -10px;
+      font-size: 20px;
+    }
     
+    .sous-titre {
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 0px;
+    }
+    
+    .description,
+    .techno {
+      font-size: 12px;
+    }
+    
+    
+    .description,
+    .techno {
+      margin-top: 5px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .btn
+    {margin-top: 0px};
+
+    .btn a {
+      font-size: 10px;
+      color: white;
+      text-decoration: none;
+      position: relative;
+      z-index: 2;
+    }
     
 }
 
