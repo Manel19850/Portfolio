@@ -28,11 +28,6 @@ function Competence(){
           <img src={Opti} alt='competences SEO'></img>
           </div>
         </div>
-       <div className='text-competence'>
-        <p>De la conception à la mise en ligne, je façonne des sites web complets avec passion et précision!  
-          Mon objectif est de donner vie à vos idées en créant des sites web fonctionnels, 
-          esthétiques et conviviaux, tout en offrant une expérience utilisateur exceptionnelle.</p>
-       </div>
       </div>
 
         </div>
