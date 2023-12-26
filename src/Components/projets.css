@@ -134,7 +134,8 @@
     {display: none;}
 
     .card
-    {width: 100%;}
+    {width: 100%;
+    margin-right: 50px;}
 
     .projet h1
     {
@@ -142,24 +143,23 @@
 
     .container-card 
     {margin-left:6%;
-   
     width: 100%;}
 
 
     .content-card h2 {
       margin: 10px 20px -10px;
-      font-size: 20px;
+      font-size: 14px;
     }
     
     .sous-titre {
-      font-size: 14px;
+      font-size: 12px;
       font-weight: bold;
       margin-bottom: 0px;
     }
     
     .description,
     .techno {
-      font-size: 12px;
+      font-size: 10px;
     }
     
     
@@ -171,13 +171,14 @@
     }
 
     .btn
-    {margin-top: 0px};
+    {margin-top: 10px;
+    height: 40px;
+    width: 170px;};
+
+   
 
     .btn a {
-      font-size: 10px;
-      color: white;
       text-decoration: none;
-      position: relative;
       z-index: 2;
     }
     
