@@ -12,10 +12,8 @@ function Competence(){
         <div>
           <div id="competence">
         <div className='competence'>
-          <h1 >
-            MES COMPÉTENCES
-            <span className="titre-competence">COMPETENCES</span>
-          </h1>
+          <h1>MES COMPÉTENCES </h1>
+            <span className="titre-competence">COMPETENCES</span>   
         </div>
         <div className='container-comp'>
           <div className='block1'>

@@ -1,0 +1,68 @@
+/* timeline.css */
+.timeline-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: auto; 
+  }
+  
+  .timeline-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .header-box {
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    position: relative;
+    padding: 20px 0; 
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: white;
+    z-index: -1; /* La ligne se situe derrière les événements */
+  }
+  
+  .timeline-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer le contenu verticalement */
+    position: relative;
+    z-index: 1; /* Assurer que l'événement est au-dessus de la ligne */
+  }
+  
+  .timeline-content {
+    padding: 10px;
+    background: #900C3F;
+    text-align: center;
+    border: 1px solid #FFC436; 
+    margin-top: 20%;
+    margin-bottom: 15px; 
+  }
+  
+  .timeline-year {
+    width: 20%;
+    height: 20%;;
+    border-radius: 60%;
+    background: #900C3F;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid white; 
+  }
+  
+  
+  

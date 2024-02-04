@@ -6,7 +6,7 @@
     z-index: 0;
     opacity: 20%;
     color:white;
-    margin-top: -15%;
+    margin-top: -12%;
     margin-left: 29%;
   }
   
@@ -18,16 +18,25 @@
       color: #FFC436;
     }
     
-.contact-container
-{display: flex;
-justify-content: center;}
+    .contact-container {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      padding:2%;
+      background-image: linear-gradient(to right,  #900C3F 50%, black 50%);
+      margin-left: 25%;
+      margin-bottom: 5%;
+    }
+    
   
   form {
-  width: 600px;
+  width: 100%;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-bottom:3%;
+  margin-top: 3%;
+  margin-left: 8%;
   }
   
   .form-group {
@@ -48,7 +57,6 @@ justify-content: center;}
     padding: 10px;
     font-size: 16px; 
     border: 1px solid #ccc;
-    border-radius: 4px;
     outline: none;
   }
   
@@ -59,10 +67,9 @@ justify-content: center;}
   .btn-contact {
     color: #fff;
     font-size: 16px; 
+    border: solid 1px white;
     background-color:#FFC436;
     padding: 10px 20px;
-    border: none;
-    border-radius: 30px;
     cursor: pointer;
 
   }
