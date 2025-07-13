@@ -1,10 +1,12 @@
 import React from 'react';
 import projetData from './data.json';
 import './projets.css';
+import ButtonRetour from './ButtonRetour'; // ✅ Corrigé ici
 
 function Projet() {
   return (
     <section className="projets-section">
+      <ButtonRetour /> {/* ← bouton de retour */}
       <h1 className="projets-title">PROJETS</h1>
       <div className="cards-container">
         {projetData.map((projet, index) => (

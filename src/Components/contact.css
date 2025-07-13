@@ -1,119 +1,112 @@
-
-.titre {
-    font-size: 90px;
-    font-weight: 700;
-    position: absolute;
-    z-index: 0;
-    opacity: 20%;
-    color:white;
-    margin-top: -12%;
-    margin-left: 29%;
-  }
-  
-  .contact h1 {
-      margin-top: 12%;
-      margin-bottom: 8%;
-      font-weight: 700;
-      text-align: center;
-      color: #FFC436;
-    }
-    
-    .contact-container {
-      display: flex;
-      justify-content: center;
-      width: 50%;
-      padding:2%;
-      background-image: linear-gradient(to right,  #900C3F 50%, black 50%);
-      margin-left: 25%;
-      margin-bottom: 5%;
-    }
-    
-  
-  form {
+.contact-wrapper {
   width: 100%;
-  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Bloc 1 - Rouge (Rustic Red) */
+.banner-red {
+  margin-top: 10rem;
+  background-color: #894A91;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  width: 100%;
+  position: relative;
+}
+
+.banner-red h1 {
+  font-size: 72px;
+  margin: 0;
+  text-transform: uppercase;
+  color: black;
+}
+
+/* Cercle noir */
+.circle-right {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+/* Bloc 2 - Contact (Smoke Tree) */
+.banner-alt {
+  background-color: #f5f5f5; 
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.banner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-header h1 {
+  font-size: 64px;
+  margin: 0;
+  text-transform: uppercase;
+  color: black;
+}
+
+.contact-form-container {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  color:black;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 50%;
+  padding: 0.75rem;
+  border: none;
+  background-color: WHITE;
+  color: black;
+  font-size: 14px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin-bottom:3%;
-  margin-top: 3%;
-  margin-left: 8%;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    font-size: 16px;
-    display: block;
-    margin-bottom: 8px;
-    color: white;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px; 
-    border: 1px solid #ccc;
-    outline: none;
-  }
-  
-  textarea {
-    height: 250px;
-  }
-  
-  .btn-contact {
-    color: #fff;
-    font-size: 16px; 
-    border: solid 1px white;
-    background-color:#FFC436;
-    padding: 10px 20px;
-    cursor: pointer;
-
-  }
-
-  .success-message
-  {margin-top: -6%;
- margin-left: 45%;
-margin-bottom:3% ;}
-  
-  
-  @media only screen and (max-width: 767px) {
-
-   form
-   {width: 100%;
-  margin-left: 10%;
-  margin-bottom: 30%;}
-
-  .titre
-  {display:none}
-
-  .contact-container
-  {background-color: black;}
-
-    
-  .contact h1
-  {margin-top: 30%;
-  margin-bottom: 20%;
- }
-
+  font-family: 'Poppins', sans-serif;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  
-
-form {margin-left: 20%;}
-
-
-.titre
-{display:none}
+textarea {
+  height: 150px;
+  resize: none;
 }
 
+.btn-contact {
+  background-color: #894A91; /* Vivi Violet */
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
 
-@media only screen and (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) {
-  
-  .titre
-{margin-left: 15%;}
+.btn-contact:hover {
+  background-color: #7A3B7B; /* un violet un peu plus foncé */
+}
+
+.success-message {
+  background-color: #0f0;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 10px;
 }

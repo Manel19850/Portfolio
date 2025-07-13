@@ -1,16 +1,15 @@
-
-
 .projets-section {
   padding: 3rem 2rem;
-  background-color: #000;
   color: white;
-  font-family: 'Open Sans', sans-serif;
-  margin: 5rem;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 
 .projets-title {
-  font-size: 28px;
-  color: #e1ad01;
+  font-size: 40px;
+  color: black; 
+  margin-top: -1rem;
   margin-bottom: 2rem;
   text-align: left;
   text-transform: uppercase;
@@ -23,24 +22,35 @@
 }
 
 .projet-card {
-  background-color: #1a1a1a;
+  background-color:#cccccc;
+  border-radius: 25px;
+  border: solid 2px #410709; /* Rustic Red */
   width: 200px;
   box-shadow: 0 0 15px rgba(150, 150, 150, 0.1);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .projet-card:hover {
   transform: translateY(-5px);
+  border-color:#F070FC; /* Dark Sienna au hover */
 }
 
 .card-image img {
   width: 200px;
-  height: 600px;
+  height: 350px;
+  filter: grayscale(100%) brightness(90%);
   object-fit: cover;
   display: block;
+  transition: filter 0.3s ease;
+  /* enlever le drop-shadow qui est redondant avec box-shadow */
+}
+
+.card-image img:hover {
+  filter: none;
 }
 
 .card-info {
@@ -51,21 +61,21 @@
 .project-number {
   font-size: 36px;
   font-weight: bold;
-  color: #e1ad01;
+  color: #894A91; 
   margin-bottom: 0.5rem;
 }
 
 .card-info hr {
   border: none;
   height: 2px;
-  background-color: #7c0a02;
+  background-color: #410709; /* Rustic Red */
   width: 60%;
   margin: 0 auto 0.8rem auto;
 }
 
 .project-title {
   font-size: 18px;
-  color: white;
+  color: black;
   margin: 0;
   text-transform: uppercase;
 }

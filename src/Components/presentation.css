@@ -3,6 +3,7 @@
   max-width: 1200px;
   margin-top: 13rem;
   padding: 2rem;
+  margin: 30px;
 }
 
 .about-block {
@@ -14,7 +15,7 @@
 /* LEFT COLUMN */
 .about-left {
   flex: 1;
-  background-color: #1a1a1a;
+  background-color: #f5f5f5;
   border-radius: 25px;
   padding: 1.5rem;
   box-shadow: 0 0 15px rgba(150, 150, 150, 0.15);
@@ -34,7 +35,7 @@
   left: -15px;
   width: 180px;
   height: 180px;
-  background: radial-gradient(circle at 30% 30%, #FFC436 30%, transparent 70%);
+  background: radial-gradient(circle at 30% 30%, #894A91 30%, transparent 70%);
   z-index: 0;
 }
 
@@ -43,8 +44,8 @@
   height: 300px;
   margin-top: 7rem;
   object-fit: cover;
-  border-bottom:3px solid #FFC436;
-  border-right: 3px solid #FFC436;
+  border-bottom:3px solid #F070FC;
+  border-right: 3px solid #F070FC;
   position: relative;
   z-index: 1;
 }
@@ -59,7 +60,7 @@
 }
 
 .icon
-{color: #FFC436;}
+{color: black;}
 
 /* RIGHT COLUMN */
 .about-right {
@@ -71,7 +72,7 @@
 
 .name-title {
   font-size: 24px;
-  color: white;
+  color: black;
   margin-top: 5rem;
 }
 
@@ -79,8 +80,11 @@
   line-height: 1.6;
   margin-top: -1rem;
   width: 600px;
-  font-size: 14px;
-  color: white;}
+  font-size: 16px;
+  color: black;
+  text-transform: none;
+  text-align: justify;}
+
 
 .right-subblocks {
   display: flex;
@@ -91,7 +95,7 @@
 .soft-skills,
 .diplomas {
   flex: 1;
-  background-color: #1a1a1a;
+  background-color:#f5f5f5;
   border-radius: 25px;
   padding: 1.5rem;
   box-shadow: 0 0 15px rgba(150, 150, 150, 0.15);
@@ -100,7 +104,7 @@
 .soft-skills h2,
 .diplomas h2,
 .software-skills h2 {
-  color: #FFC436;
+  color:#894A91;
   text-transform: uppercase;
   margin-bottom: 0rem;
   margin-top: 0.5rem;
@@ -115,7 +119,7 @@ ul {
 
 /* SOFTWARE SKILLS */
 .software-skills {
-  background-color: #1a1a1a;
+  background-color: #f5f5f5;
   border-radius: 25px;
   padding: 1.5rem;
   box-shadow: 0 0 15px rgba(150, 150, 150, 0.15);

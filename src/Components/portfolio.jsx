@@ -1,12 +1,13 @@
 import React from 'react';
 import './portfolio.css';
 import Navbar from './navbar';
+import ButtonRetour from './ButtonRetour'
 
 
 function Portfolio() {
   return (
     <div>
-
+    <ButtonRetour /> {/* ← bouton de retour */}
     <div id="accueil">
       
       <div className='box1'></div>

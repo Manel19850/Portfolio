@@ -1,6 +1,7 @@
 import React from 'react';
 import './presentation.css';
 import photo_cv from '../Assets/photo_cv.jpg';
+import ButtonRetour from './ButtonRetour'
 import {
   FiMapPin,
   FiPhone,
@@ -12,7 +13,7 @@ import {
 
 const softwareSkills = [
   { name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-  { name: 'GitHub', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-white.svg' },
+  { name: 'GitHub', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' },
   { name: 'Node.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
   { name: 'Firebase', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
   { name: 'MongoDB', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
@@ -23,6 +24,7 @@ const softwareSkills = [
 function Portfolio() {
   return (
     <div className="portfolio-container">
+      <ButtonRetour/>
 
       <div className="about-block">
         {/* Colonne gauche */}
@@ -39,7 +41,7 @@ function Portfolio() {
         </div>
 
         {/* Colonne droite */}
-        <div className="about-right">
+        <div className="about-right" id="presentation">
           <h1 className="name-title">Manel JOUINI</h1>
           <p className="intro">
             Ancienne assistante de direction puis RH, j’ai découvert le développement web en startup, aux côtés d’une équipe IT qui avait créé un outil simple mais très efficace pour digitaliser les documents administratifs. 

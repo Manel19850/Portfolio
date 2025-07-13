@@ -1,22 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
-
-    
 function Navbar() {
-  
-
   return (
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <a href="#presentation">ABOUT</a><span></span>
+          <Link to="/presentation">ABOUT</Link><span></span>
         </li>
         <li>
-          <a href="#projets">PROJECTS</a><span></span>
+          <Link to="/projets">PROJECTS</Link><span></span>
         </li>
         <li>
-          <a href="#contact">CONTACT</a><span></span>
+          <Link to="/contact">CONTACT</Link><span></span>
         </li>
       </ul>
     </nav>
