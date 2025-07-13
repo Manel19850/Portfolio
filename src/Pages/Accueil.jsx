@@ -1,5 +1,4 @@
 // Accueil.js
-import React from 'react';
 import '../index.css';
 import Portfolio from '../Components/portfolio';
 import Presentation from '../Components/presentation';
@@ -17,7 +16,6 @@ const Accueil = () => {
       <Portfolio/>
       <Presentation/>
       <Projet/>
-      <Competence/>
       <Contact/>
       <BackToTopButton/>
       <Footer/>

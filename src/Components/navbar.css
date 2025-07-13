@@ -10,6 +10,8 @@
   padding-inline: 10px; 
   padding-block: 10px; 
   align-items: center;
+  margin-bottom: 5rem;
+  
 }   
 
 .navbar a {
@@ -19,6 +21,7 @@
   text-decoration: none;
   letter-spacing: 2px;
   transition: 0.5s;
+  line-height: 7rem;
 }
 
 .navbar a::after {

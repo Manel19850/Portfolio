@@ -16,9 +16,6 @@ function Navbar() {
           <a href="#projets">PROJECTS</a><span></span>
         </li>
         <li>
-          <a href="#competence">SKILLS</a><span></span>
-        </li>
-        <li>
           <a href="#contact">CONTACT</a><span></span>
         </li>
       </ul>
