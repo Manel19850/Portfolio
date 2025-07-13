@@ -1,7 +1,7 @@
 /* Styles de base (desktop) */
 .portfolio-container {
   max-width: 1200px;
-  margin: 13rem auto 30px auto;
+ 
   padding: 2rem;
 }
 
@@ -81,7 +81,8 @@
 
 .intro {
   line-height: 1.6;
-  margin-top: -1rem;
+  margin-top: -1REM;
+  margin-left: -8px;
   width: 600px;
   max-width: 100%;
   font-size: 16px;
