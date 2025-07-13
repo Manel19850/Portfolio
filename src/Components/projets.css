@@ -1,6 +1,7 @@
+/* Styles de base (desktop) */
 .projets-section {
   padding: 3rem 2rem;
-  color: white;
+  color: black;
   font-family: 'Poppins', sans-serif;
   margin-top: 5rem;
   margin-bottom: 10rem;
@@ -19,10 +20,11 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 2rem;
+  justify-items: center;
 }
 
 .projet-card {
-  background-color:#cccccc;
+  background-color: #cccccc;
   border-radius: 25px;
   border: solid 2px #410709; /* Rustic Red */
   width: 200px;
@@ -30,13 +32,13 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, border-color 0.3s ease;
   cursor: pointer;
 }
 
 .projet-card:hover {
   transform: translateY(-5px);
-  border-color:#F070FC; /* Dark Sienna au hover */
+  border-color: #F070FC; /* Dark Sienna au hover */
 }
 
 .card-image img {
@@ -46,7 +48,6 @@
   object-fit: cover;
   display: block;
   transition: filter 0.3s ease;
-  /* enlever le drop-shadow qui est redondant avec box-shadow */
 }
 
 .card-image img:hover {
@@ -61,7 +62,7 @@
 .project-number {
   font-size: 36px;
   font-weight: bold;
-  color: #894A91; 
+  color: #894A91; /* Vivi Violet */
   margin-bottom: 0.5rem;
 }
 
@@ -78,4 +79,82 @@
   color: black;
   margin: 0;
   text-transform: uppercase;
+}
+
+/* === Responsive === */
+
+/* Tablettes (768px à 1024px) */
+@media (max-width: 1024px) {
+  .projets-section {
+    padding: 2.5rem 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+  }
+
+  .projets-title {
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .projet-card {
+    width: 180px;
+  }
+
+  .card-image img {
+    width: 180px;
+    height: 320px;
+  }
+
+  .project-number {
+    font-size: 28px;
+  }
+
+  .project-title {
+    font-size: 16px;
+  }
+}
+
+/* Mobiles (moins de 768px) */
+@media (max-width: 767px) {
+  .projets-section {
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+  }
+
+  .projets-title {
+    font-size: 28px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr; /* une colonne */
+    gap: 1rem;
+  }
+
+  .projet-card {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+  }
+
+  .project-number {
+    font-size: 24px;
+  }
+
+  .project-title {
+    font-size: 16px;
+  }
 }

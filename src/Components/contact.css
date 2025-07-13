@@ -110,3 +110,67 @@ textarea {
   margin-bottom: 1rem;
   border-radius: 10px;
 }
+
+/* === Responsive === */
+
+/* Tablettes (768px à 1024px) */
+@media (max-width: 1024px) {
+  .banner-red {
+    padding: 3rem 1.5rem;
+  }
+
+  .banner-red h1 {
+    font-size: 48px;
+  }
+
+  .banner-header h1 {
+    font-size: 48px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 70%;
+  }
+
+  .btn-contact {
+    width: 70%;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+/* Mobiles (moins de 768px) */
+@media (max-width: 767px) {
+  .banner-red {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .banner-red h1 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+  }
+
+  .circle-right {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .banner-alt {
+    padding: 2rem 1rem;
+  }
+
+  .banner-header h1 {
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+  }
+
+  .btn-contact {
+    width: 100%;
+    padding: 0.8rem 1rem;
+  }
+}
