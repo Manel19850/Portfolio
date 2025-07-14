@@ -106,9 +106,9 @@
 }
 
 .vertical-line {
-  width: 3px;
+  width: 5px;
   height: 50vh;
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-hover);
 }
 
 .year {
