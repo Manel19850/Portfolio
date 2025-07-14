@@ -8,9 +8,8 @@
 
 /* ---------------- NAVBAR ---------------- */
 .navbar {
-  width: 220px;
+  width: 200px;
   height: 100vh;
-  font-size: 10rem;
   position: sticky;
   top: 0;
   background: var(--color-background);
@@ -34,9 +33,10 @@
 
 .navbar a {
   font-family: 'Open Sans', sans-serif;
-  font-size: 8rem;
+  font-size: 5rem;
   color: var(--color-primary);
   text-decoration: none;
+  white-space: nowrap;
   letter-spacing: 3px;
   line-height: 1;
   position: relative;
@@ -45,6 +45,7 @@
   display: inline-block;
   padding-bottom: 0.1em;
 }
+
 
 .navbar a::after {
   content: "";
@@ -237,6 +238,7 @@
   .navbar a {
     font-size: 3rem;
     letter-spacing: 2px;
+    white-space: nowrap;
   }
 
   .main-content {
@@ -323,7 +325,8 @@
   }
 
   .navbar a {
-    font-size: 4rem;
+    font-size: 3rem;
+    white-space: nowrap;
   }
 
   .main-content {

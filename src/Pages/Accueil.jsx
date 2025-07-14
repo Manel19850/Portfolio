@@ -22,7 +22,9 @@ function Home() {
       <main className="main-content">
         <div className="info-box">
           <h1 className="name">Manel JOUINI</h1>
+          <p>Bienvenue sur mon Portfolio</p>
           <p className="job-title">Web Developer & UI/UX Designer</p>
+      
         </div>
 
         <div className="side-bar">
