@@ -25,8 +25,8 @@
 .projets-line {
   flex-grow: 1;
   border: none;
-  height: 2px; /* épaisseur de la ligne */
-  background-color: var(--color-primary); /* violet punchy */
+  height: 2px; 
+  background-color: var(--color-primary); 
 }
 
 .cards-container {
@@ -37,9 +37,9 @@
 }
 
 .projet-card {
-  background-color: #cccccc; /* gris clair, pas défini dans variables, tu peux créer une variable si tu veux */
+  background-color: #cccccc; 
   border-radius: 5px;
-  border: solid 2px var(--color-border); /* violet punchy */
+  border: solid 2px var(--color-border);
   width: 200px;
   box-shadow: 0 0 15px rgba(150, 150, 150, 0.1);
   overflow: hidden;
@@ -51,13 +51,12 @@
 
 .projet-card:hover {
   transform: translateY(-5px);
-  border-color: var(--color-primary-hover); /* rose vif */
+  border-color: var(--color-primary-hover); 
 }
 
 .card-image img {
   width: 200px;
   height: 350px;
-  filter: grayscale(100%) brightness(90%);
   object-fit: cover;
   display: block;
   transition: filter 0.3s ease;
