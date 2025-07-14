@@ -8,18 +8,9 @@
         "langage": "HTML et CSS",
         "site": "https://manel19850.github.io/P2-Projet-Booki-HTM-CSS/"
     },
+   
     {
         "id": "2",
-        "title": "Portfolio de l'architecte Sophie Bluel",
-        "cover": "site-Sophie.png",
-        "soustitre":"Création d'une application dynamique avec JavaScript",
-        "description": "Développement d'une application JavaScript avec une interaction avec Node Js. Manipulation du DOM, récupération des données utilisateur de façon dynamique.",
-        "langage": "JavaScript",
-        "site":"https://github.com/Manel19850/Sophie-Bluel.git"
-
-    },
-    {
-        "id": "3",
         "title": "Portfolio de la photographe Nina Carducci",
         "cover": "NINA.png",
         "soustitre":"Opimisation du site internet",
@@ -29,7 +20,7 @@
         "site":"https://manel19850.github.io/P5-Optimisation-site-Nina-Carducci/"
     },
     {
-        "id": "4",
+        "id": "3",
         "title": "Application Kasa - Site de location immobilière",
         "cover": "site-kasa.png",
         "soustitre": "Création d'une application de location immobilière avec REACT / Responsive",
@@ -37,13 +28,23 @@
         "langage": "React Js",
         "site":"https://kasa-f23da9.netlify.app/"
     },
+  
     {
-        "id": "5",
-        "title": "Site de notation Mon Vieux Grimmoire",
-        "cover": "MVG.png",
+        "id": "4",
+        "title": "Site Fast Club",
+        "cover": "fast club.jpeg",
         "soustitre":"Développement du back-end du site de notation de livres Mon vieux grimoire",
         "description": "Développement de la totalité du Backend du site Mon vieux grimoire. Mise en oeuvre des opérations CRUD , sécurisation des données et implémentation de modèle de logique de données.",
         "langage": "Nodejs, ExpressJs",
-        "site":"https://github.com/Manel19850/Backend_P7.git"
+        "site":"https://fastclub20.netlify.app/"
+    },
+    {
+        "id": "5",
+        "title": "My Talent Consulting",
+        "cover": "My talent.jpeg",
+        "soustitre":"Développement du back-end du site de notation de livres Mon vieux grimoire",
+        "description": "Développement de la totalité du Backend du site Mon vieux grimoire. Mise en oeuvre des opérations CRUD , sécurisation des données et implémentation de modèle de logique de données.",
+        "langage": "Nodejs, ExpressJs",
+        "site":"https://mytalentconsulting.netlify.app/"
     }
 ]

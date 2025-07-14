@@ -1,12 +1,12 @@
 import React from 'react';
 import projetData from './data.json';
 import './projets.css';
-import ButtonRetour from './ButtonRetour'; // ✅ Corrigé ici
+import ButtonRetour from './ButtonRetour'; // 
 
 function Projet() {
   return (
     <section className="projets-section">
-      <ButtonRetour /> {/* ← bouton de retour */}
+      <ButtonRetour /> 
       <div className="projets-header">
         <h1 className="projets-title">PROJETS</h1>
         <hr className="projets-line" />
