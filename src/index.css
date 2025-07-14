@@ -10,8 +10,8 @@
   --color-text: #000000;
 
   /* Couleurs punchy */
-  --color-primary: #894A91;       /* violet punchy */
-  --color-primary-hover: #CCFF00; /* rose vif pour hover */
+  --color-primary: #894A91;       
+  --color-primary-hover: #CCFF00; 
 
   /* Couleurs secondaires / neutres */
   --color-border: var(--color-primary);

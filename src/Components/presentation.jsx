@@ -1,6 +1,6 @@
 import React from 'react';
 import './presentation.css';
-import photo_cv from '../Assets/photo_cv.jpg';
+import photo from '../Assets/IMG_4277.jpeg';
 import ButtonRetour from './ButtonRetour'
 import {
   FiMapPin,
@@ -31,7 +31,7 @@ function Portfolio() {
         <div className="about-left">
           <div className="photo-wrapper">
             <div className="graphic-background"></div>
-            <img src={photo_cv} alt="Manel" className="profile-image" /></div>
+            <img src={photo} alt="Manel" className="profile-image" /></div>
 
           <p><FiMapPin className="icon" /> LYON, France</p>
           <p><FiPhone className="icon" /> 06 XX XX XX XX</p>
