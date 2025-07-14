@@ -42,7 +42,6 @@ function Portfolio() {
 
         {/* Colonne droite */}
         <div className="about-right" id="presentation">
-          <h1 className="name-title">Manel JOUINI</h1>
           <p className="intro">
             Ancienne assistante de direction puis RH, j’ai découvert le développement web en startup, aux côtés d’une équipe IT qui avait créé un outil simple mais très efficace pour digitaliser les documents administratifs. 
             Cette expérience m’a donné envie de me former et de créer à mon tour des solutions utiles et bien pensées.

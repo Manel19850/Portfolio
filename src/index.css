@@ -2,11 +2,39 @@
 {box-sizing: border-box;}
 
 
-body {
-  margin: 0;
-  font-family: "Open Sans", sans-serif;
-  background-color: white;
-  color: Black;
-  scroll-behavior:smooth;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@700&display=swap');
+
+:root {
+  /* Couleurs générales */
+  --color-background: #ffffff;
+  --color-text: #000000;
+
+  /* Couleurs punchy */
+  --color-primary: #894A91;       /* violet punchy */
+  --color-primary-hover: #CCFF00; /* rose vif pour hover */
+
+  /* Couleurs secondaires / neutres */
+  --color-border: var(--color-primary);
+  --color-link: var(--color-primary);
+  --color-link-hover: var(--color-primary-hover);
+  
+  /* Ta taille de base pour rem */
+  --base-font-size: 16px;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-size: 1rem; /* 16px par défaut */
+  margin: 0;
+  padding: 0;
+}
+
+/* Titres (h1, h2, h3) */
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 1rem 0;
+}

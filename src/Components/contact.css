@@ -6,7 +6,7 @@
 /* Bloc 1 - Rouge (Rustic Red) */
 .banner-red {
   margin-top: 10rem;
-  background-color: #894A91;
+  background-color: var(--color-primary); /* #894A91 */
   color: white;
   display: flex;
   justify-content: space-between;
@@ -20,20 +20,20 @@
   font-size: 72px;
   margin: 0;
   text-transform: uppercase;
-  color: black;
+  color: var(--color-text); /* noir */
 }
 
 /* Cercle noir */
 .circle-right {
   width: 20px;
   height: 20px;
-  background-color: black;
+  background-color: var(--color-text);
   border-radius: 50%;
 }
 
 /* Bloc 2 - Contact (Smoke Tree) */
 .banner-alt {
-  background-color: #f5f5f5; 
+  background-color: var(--color-neutral-light); /* #f5f5f5 */
   padding: 4rem 2rem;
   color: white;
 }
@@ -48,7 +48,7 @@
   font-size: 64px;
   margin: 0;
   text-transform: uppercase;
-  color: black;
+  color: var(--color-text);
 }
 
 .contact-form-container {
@@ -65,7 +65,7 @@
   margin-bottom: 0.5rem;
   font-size: 14px;
   text-transform: uppercase;
-  color:black;
+  color: var(--color-text);
 }
 
 .form-group input,
@@ -73,8 +73,8 @@
   width: 50%;
   padding: 0.75rem;
   border: none;
-  background-color: WHITE;
-  color: black;
+  background-color: white;
+  color: var(--color-text);
   font-size: 14px;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
@@ -86,7 +86,7 @@ textarea {
 }
 
 .btn-contact {
-  background-color: #894A91; /* Vivi Violet */
+  background-color: var(--color-primary);
   color: white;
   padding: 0.8rem 2rem;
   border: none;
@@ -99,12 +99,12 @@ textarea {
 }
 
 .btn-contact:hover {
-  background-color: #7A3B7B; /* un violet un peu plus foncé */
+  background-color: #7A3B7B; /* violet plus foncé, variable possible si tu veux */
 }
 
 .success-message {
   background-color: #0f0;
-  color: black;
+  color: var(--color-text);
   padding: 1rem;
   text-align: center;
   margin-bottom: 1rem;

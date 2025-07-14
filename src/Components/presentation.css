@@ -1,7 +1,5 @@
-/* Styles de base (desktop) */
 .portfolio-container {
   max-width: 1200px;
- 
   padding: 2rem;
 }
 
@@ -15,8 +13,8 @@
 .about-left {
   flex: 1;
   min-width: 300px;
-  background-color: #f5f5f5;
-  border-radius: 25px;
+  background-color: var(--color-neutral-light); /* remplace #f5f5f5 */
+  border-radius: 5px;
   padding: 1.5rem;
   box-shadow: 0 0 15px rgba(150, 150, 150, 0.15);
   display: flex;
@@ -35,7 +33,7 @@
   left: -15px;
   width: 180px;
   height: 180px;
-  background: radial-gradient(circle at 30% 30%, #894A91 30%, transparent 70%);
+  background: radial-gradient(circle at 30% 30%, var(--color-primary) 30%, transparent 70%);
   z-index: 0;
 }
 
@@ -44,8 +42,8 @@
   height: 300px;
   margin-top: 7rem;
   object-fit: cover;
-  border-bottom: 3px solid #F070FC;
-  border-right: 3px solid #F070FC;
+  border-bottom: 3px solid var(--color-primary-hover); /* remplace #F070FC */
+  border-right: 3px solid var(--color-primary-hover);
   position: relative;
   z-index: 1;
 }
@@ -54,6 +52,7 @@
   margin-top: 1rem;
   line-height: 1.6;
   text-align: center;
+  color: var(--color-text); /* couleur texte */
 }
 
 .personal-info p {
@@ -61,7 +60,7 @@
 }
 
 .icon {
-  color: black;
+  color: var(--color-text);
 }
 
 /* RIGHT COLUMN */
@@ -73,20 +72,14 @@
   gap: 2rem;
 }
 
-.name-title {
-  font-size: 24px;
-  color: black;
-  margin-top: 5rem;
-}
-
 .intro {
   line-height: 1.6;
-  margin-top: -1REM;
-  margin-left: -8px;
-  width: 600px;
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 700px;
   max-width: 100%;
   font-size: 16px;
-  color: black;
+  color: var(--color-text);
   text-transform: none;
   text-align: justify;
 }
@@ -101,8 +94,8 @@
 .diplomas {
   flex: 1;
   min-width: 280px;
-  background-color: #f5f5f5;
-  border-radius: 25px;
+  background-color: var(--color-neutral-light);
+  border-radius: 5px;
   padding: 1.5rem;
   box-shadow: 0 0 15px rgba(150, 150, 150, 0.15);
 }
@@ -110,7 +103,7 @@
 .soft-skills h2,
 .diplomas h2,
 .software-skills h2 {
-  color: #894A91;
+  color: var(--color-primary);
   text-transform: uppercase;
   margin-bottom: 0;
   margin-top: 0.5rem;
@@ -124,8 +117,8 @@ ul {
 
 /* SOFTWARE SKILLS */
 .software-skills {
-  background-color: #f5f5f5;
-  border-radius: 25px;
+  background-color: var(--color-neutral-light);
+  border-radius: 5px;
   padding: 1.5rem;
   box-shadow: 0 0 15px rgba(150, 150, 150, 0.15);
 }

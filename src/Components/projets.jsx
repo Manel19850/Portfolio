@@ -7,7 +7,10 @@ function Projet() {
   return (
     <section className="projets-section">
       <ButtonRetour /> {/* ← bouton de retour */}
-      <h1 className="projets-title">PROJETS</h1>
+      <div className="projets-header">
+        <h1 className="projets-title">PROJETS</h1>
+        <hr className="projets-line" />
+      </div>
       <div className="cards-container">
         {projetData.map((projet, index) => (
           <div
